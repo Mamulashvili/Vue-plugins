@@ -1,19 +1,9 @@
-# vue-plugins
+# Vue plugins
 
-## Project setup
-```
-npm install
-```
+## usage
 
-### Compiles and hot-reloads for development
+```js
+createApp(App)
+    .use(FontDirectivesPlugin)
+    .mount('#app')
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
