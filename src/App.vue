@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <base-screen msg="Welcome to Your Vue.js App" />
+  <base-screen />
 </template>
 
 <script>
@@ -15,6 +15,10 @@ export default {
 </script>
 
 <style lang="scss">
+body {
+  box-sizing: border-box;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
