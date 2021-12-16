@@ -38,3 +38,7 @@ import '../style/global.scss';
 ```html
 <span v-font-bg-color:#41b884 v-font-color:#fff>#41b884</span>
 ```
+- v-font-weight
+```html
+<span v-font-weight:bold> v-font-weight:bold </span>
+```
