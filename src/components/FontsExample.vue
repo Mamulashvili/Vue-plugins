@@ -42,5 +42,11 @@
         (Available rgb, hex color codes)
       </p>
     </li>
+    <li>
+      <p v-font-size="18">
+        font weight:
+        <span v-font-weight:bold> v-font-weight:bold </span>
+      </p>
+    </li>
   </ul>
 </template>
