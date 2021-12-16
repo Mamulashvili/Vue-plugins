@@ -1,6 +1,7 @@
 # Vue plugins
 
-## usage
+## Font plugin
+### usage
 
 ```js
 import FontDirectivesPlugin from '../plugins/FontDirectivesPlugin';
@@ -14,7 +15,6 @@ Plugin imports scss file
 import '../style/global.scss';
 ```
 
-## Font plugin
 - v-font-size
 ```html
 <span v-font-size:bold="21"> v-font-size:fontWeight="fontSize" </span>
@@ -42,3 +42,21 @@ import '../style/global.scss';
 ```html
 <span v-font-weight:bold> v-font-weight:bold </span>
 ```
+
+## Alert
+### usage
+
+```js
+import AlertPlugin from '../plugins/AlertPlugin';
+
+createApp(App)
+    .use(AlertPlugin)
+    .mount('#app')
+```
+View:
+```html
+<base-alert alert-type="secondary">
+    <p>This is secondary alert</p>
+</base-alert>
+```
+alert-type: primary (default), secondary, success, danger, warning, info, light, dark
